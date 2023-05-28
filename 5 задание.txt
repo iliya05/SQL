@@ -1,0 +1,2 @@
+SELECT PC.model, PC.speed, PC.hd FROM PC
+WHERE (PC.cd = '12x' OR PC.cd = '24x') AND price < 600
